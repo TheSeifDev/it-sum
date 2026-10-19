@@ -1,0 +1,23 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries & coverage
+*.test
+*.out
+coverage.html
+
+# Local files & logs
+*.log
+.DS_Store
+Thumbs.db
